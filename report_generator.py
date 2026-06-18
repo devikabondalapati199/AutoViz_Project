@@ -1,3 +1,6 @@
+import os
+
+os.makedirs("reports", exist_ok=True)
 from reportlab.platypus import (
     SimpleDocTemplate,
     Paragraph,
